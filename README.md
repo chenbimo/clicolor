@@ -91,3 +91,5 @@ moon run src/main
 ## 许可证
 
 MIT。
+
+clicolor.moonbitlang.dev 已上线，写法见 [docs](https://clicolor.moonbitlang.dev)。
