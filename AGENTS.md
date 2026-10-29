@@ -2,7 +2,7 @@
 
 终端颜色与超链接转义序列库，moonbit 工作区渲染类模块的基建。无依赖、无 FFI，多 target。
 
-通用规范（工具链、devkit、提交格式、命名）见工作区脚本中心 `moonbit/scripts/NEW-PROJECT.md`，这里只写本项目特有的值。
+通用规范分两处，都在本仓库之外：工作区铁律（工具链、依赖使用、测试三档）见 `moonbit/AGENTS.md`；新建项目、提交格式、命名、文档站见 `moonbit/scripts/NEW-PROJECT.md`。这里只写本项目特有的值。
 
 ## 目录地图
 
