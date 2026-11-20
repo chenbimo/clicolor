@@ -6,13 +6,14 @@
 ///
 /// 模块视图：本包是终端转义序列的唯一来源。会算宽、会截断、会断行的库引用它，
 /// 自己保持「序列不管宽度、宽度不管序列」的分工。
+#derive(Debug)
 pub struct Style {
   priv fg : Int32 // 前景色 0..15（SGR 30..37 / 90..97），-1 无，-2 真彩看 hex_fg
   priv bg : Int32 // 背景色同上，-2 真彩看 hex_bg
   priv attrs : Int32 // 位 1 bold / 2 italic / 4 underline / 8 inverse / 16 strikethrough
   priv hex_fg : String
   priv hex_bg : String
-} derive(Debug)
+}
 
 ///|
 pub extend Style with Debug::{to_repr}
